@@ -1,5 +1,9 @@
-export default function login() {
+export default function Login() {
 	return (
-		<></>
+		<>
+		 <section className='w-full h-screen bg-[rgba(15,23,42,1)]'>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptates aut beatae eum maxime mollitia, fugiat corporis voluptatem dolorem obcaecati similique dolorum voluptatibus optio aspernatur laborum illo hic ducimus, in tenetur officiis voluptas excepturi libero! Reprehenderit consequatur modi accusantium cum labore eligendi impedit odit neque nesciunt. Aliquam et eum at tempore illo quae perferendis, accusamus magni minus, tenetur autem earum consequatur libero impedit! Est, facere. Sequi porro voluptatibus esse natus consectetur in facilis dolorum molestias quisquam fuga et tempora numquam, sunt laborum velit obcaecati sapiente inventore eius modi cumque mollitia. Necessitatibus, nesciunt. Impedit beatae veritatis cumque saepe animi rem inventore maiores nobis totam, asperiores quia voluptatibus odio ipsum necessitatibus ipsam. Recusandae, praesentium quibusdam! Quia laboriosam fuga suscipit officia aliquid modi distinctio illum sunt voluptatibus, veniam praesentium velit repellendus illo exercitationem perspiciatis odio eius iste placeat, laborum provident veritatis? Consequatur ratione optio totam eos minima voluptatum. Assumenda, modi tempora? Delectus soluta quos deserunt culpa qui earum non tempora fugit perferendis, quisquam nihil itaque perspiciatis natus modi vitae autem iure veritatis eius, dolorem provident corporis accusantium est voluptate? Sint voluptate non molestiae eveniet eos, veritatis adipisci praesentium fugiat id, odio ipsum expedita similique ratione illum inventore. Consequatur nulla facilis cupiditate magni sapiente.
+		 </section>
+		</>
 	)
 }
