@@ -7,7 +7,7 @@ import 'react-phone-input-2/lib/bootstrap.css'
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 
-export default function Save_number() {
+export default function Save_name_surName() {
 	const { t } = useTranslation()
 	const [phone, setPhone] = useState('')
 
