@@ -1,5 +1,22 @@
 {
 	"auth_save_number_title": "Suhbatchiga xush kelibsiz 👋",
 	"auth_submit_button": "Davom etish",
-	"phone_number": "Telefon raqam"
+	"phone_number": "Telefon raqam",
+	"auth_save_password_title": "Parolingizni yarating",
+	"new_password": "Yangi parol",
+	"confirm_password": "Parolni tasdiqlash",
+	"new_password_placeholder": "Yangi parolingizni kiriting",
+	"confirm_password_placeholder": "Parolni qayta kiriting",
+	"auth_fullname_title": "Ism va familiyangizni kiriting",
+	"first_name": "Ism",
+	"first_name_placeholder": "Ismingizni kiriting",
+	"last_name": "Familiya",
+	"last_name_placeholder": "Familiyangizni kiriting",
+	"auth_otp_title": "Tasdiqlash kodini kiriting",
+	"otp_code": "Tasdiqlash kodi",
+	"otp_code_placeholder": "000 000",
+	"auth_otp_resend": "Kodni qayta yuborish",
+	"registration_success": "Ro’yxatdan muvaffaqiyatli o’tdingiz",
+	"auth_otp_reminder": "Iltimos, ro’yxatdan o’tilgandagi ma’lumotlarni yaxshilab eslab qoling!",
+	"auth_go_home": "Asosiy sahifaga o'tish"
 }

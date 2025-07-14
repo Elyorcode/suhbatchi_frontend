@@ -6,22 +6,19 @@ import { Input } from '@/components/ui/input'
 import { useState } from 'react'
 import LanguageSwitcherFullName from '../LanguageAuth'
 
-export default function SaveFullName() {
+export default function EnterOtpCode() {
 	const { t } = useTranslation()
-
-	const [firstName, setFirstName] = useState('')
-	const [lastName, setLastName] = useState('')
+	const [otp, setOtp] = useState('')
 
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault()
 
-		if (!firstName || !lastName) {
-			alert('Iltimos, ism va familiyangizni kiriting!')
+		if (otp.trim().length === 0) {
+			alert('Iltimos, OTP kodni kiriting!')
 			return
 		}
 
-		console.log('First Name:', firstName)
-		console.log('Last Name:', lastName)
+		console.log('OTP:', otp)
 	}
 
 	return (
@@ -31,35 +28,22 @@ export default function SaveFullName() {
 				className='w-[405px] max-[800px]:w-[355px] max-[800px]:p-[20px] max-[768px]:w-[377px] max-[768px]:p-0 p-8 space-y-4'
 			>
 				<h1 className='text-white text-[23.31px] mb-[35px] font-bold leading-[28.8px]'>
-					{t('auth_fullname_title')}
+					{t('auth_otp_title')}
 				</h1>
 
 				<div className='space-y-1'>
 					<label className='text-[15px] font-medium text-[rgba(248,248,249,0.7)]'>
-						{t('first_name')}
+						{t('otp_code')}
 					</label>
 					<div className='mt-[8px]'>
 						<Input
 							type='text'
-							placeholder={t('first_name_placeholder')}
-							value={firstName}
-							onChange={e => setFirstName(e.target.value)}
+							placeholder={t('otp_code_placeholder')}
+							value={otp}
+							onChange={e => setOtp(e.target.value)}
 							className='bg-white text-black w-full h-[48px]'
-						/>
-					</div>
-				</div>
-
-				<div className='space-y-1'>
-					<label className='text-[15px] font-medium text-[rgba(248,248,249,0.7)]'>
-						{t('last_name')}
-					</label>
-					<div className='mt-[8px]'>
-						<Input
-							type='text'
-							placeholder={t('last_name_placeholder')}
-							value={lastName}
-							onChange={e => setLastName(e.target.value)}
-							className='bg-white text-black w-full h-[48px]'
+							inputMode='numeric'
+							pattern='[0-9]*'
 						/>
 					</div>
 				</div>
@@ -71,7 +55,8 @@ export default function SaveFullName() {
 					{t('auth_submit_button')}
 				</Button>
 			</form>
-				<LanguageSwitcherFullName />
+
+			<LanguageSwitcherFullName />
 		</div>
 	)
 }

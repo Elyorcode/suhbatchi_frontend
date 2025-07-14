@@ -1,5 +1,22 @@
 {
 	"auth_save_number_title": "Welcome to the chat 👋",
 	"auth_submit_button": "Continue",
-	"phone_number": "Phone number"
+	"phone_number": "Phone number",
+	"auth_save_password_title": "Create your password",
+	"new_password": "New Password",
+	"confirm_password": "Confirm Password",
+	"new_password_placeholder": "Enter new password",
+	"confirm_password_placeholder": "Re-enter password",
+	"auth_fullname_title": "Enter your first and last name",
+	"first_name": "First Name",
+	"first_name_placeholder": "Enter your first name",
+	"last_name": "Last Name",
+	"last_name_placeholder": "Enter your last name",
+	"auth_otp_title": "Enter the verification code",
+	"otp_code": "Verification Code",
+	"otp_code_placeholder": "000 000",
+	"auth_otp_resend": "Resend the code",
+	"registration_success": "You have successfully registered",
+	"auth_otp_reminder": "Please make sure to remember the information you provided during registration!",
+	"auth_go_home": "Go to homepage"
 }
